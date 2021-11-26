@@ -45,5 +45,5 @@ Berikut ini adalah fitur yang dimiliki pada aplikasi selap disetiap level:
 
 Nah segitu saja keterangannya hehehe----
 
-MY WEBSITE		: www.imamlarh.com
-MY INSTAGRAM	: @ehhimam_larh
+* MY WEBSITE		: www.imamlarh.com
+* MY INSTAGRAM	: @ehhimam_larh
