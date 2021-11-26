@@ -5,7 +5,7 @@ function cek_login_admin()
 	$ci = get_instance();
 	$id = $ci->session->userdata('role');
 
-	if( $id !== 1 )  {
+	if( !$id == 1 )  {
 		redirect ('index.php/auth/blok');
 	} 
 }
