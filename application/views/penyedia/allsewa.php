@@ -55,7 +55,7 @@
                                             <td>
 
                                                 <?php if ($aa['status_pembayaran'] == 'Lunas!'): ?>
-                                                    <a href="sewa/cetak/<?= $aa['id_sewa']; ?>" class='btn btn-success'>Lihat!</a>
+                                                    <a href="../sewa/cetak/<?= $aa['id_sewa']; ?>" class='btn btn-success'>Lihat!</a>
                                                 <?php endif ?>
                                             </td>
                                         </tr>

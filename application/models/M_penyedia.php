@@ -81,5 +81,21 @@ class M_penyedia extends CI_Model {
     return $qq->row()->total;
   }
 
+  // jumlah lapangan yang dibuat sipenyedia
+  public function jumlah_lapangan($id)
+  {
+    $query = "SELECT count(id_futsal) as jmlh  FROM lapangan WHERE id_penyedia = '$id' ";
+    $aa = $this->db->query($query);
+    return $aa->row()->jmlh;
+  }
+
+  // menghitung jumlah lapangan yang disewa
+  public function jumlah_sewa($id)
+  {
+    $query = "SELECT count(id_pembayaran) as jmlh  FROM pembayaran WHERE id_penyedia = '$id' ";
+    $aa = $this->db->query($query);
+    return $aa->row()->jmlh;
+  }
+
 
 }

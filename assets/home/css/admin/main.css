@@ -1,0 +1,258 @@
+body.imgbob_home_body {
+    overflow: hidden
+}
+
+body::-webkit-scrollbar {
+    width: 6px
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--playbob-primary-color)
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    vertical-align: middle
+}
+
+label {
+    margin-bottom: .5rem
+}
+
+.swal-overlay--show-modal .swal-modal {
+    will-change: auto!important
+}
+
+.swal-footer {
+    text-align: center!important;
+    margin-bottom: 20px!important
+}
+
+.btn-primary {
+    background: var(--playbob-primary-color);
+    border-color: var(--playbob-primary-color);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: var(--playbob-primary-color);
+    border-color: var(--playbob-primary-color);
+    color: #ffffff;
+    opacity: .9;
+}
+
+.btn-primary:focus {
+    border-color: var(--playbob-primary-color) !important;
+}
+
+.bg-primary {
+    background: var(--playbob-primary-color) !important;
+}
+
+.bg-black {
+    background: #333333 !important;
+}
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+.form-control:focus {
+    color: inherit;
+    background: #fff;
+    border-color: var(--playbob-single-color);
+    outline: 0;
+    box-shadow: none
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #232E3D;
+}
+
+.btn-pd {
+    padding: .6375rem 1.4rem!important
+}
+
+.alert {
+    background: #fff
+}
+
+.note {
+    padding: 19px;
+    border-radius: 6px;
+    margin-bottom: 1em
+}
+
+.note-danger {
+    background: #f9a3a3;
+    border-color: #f9a3a3;
+    border-left: 5px solid #ca5353;
+    color: #4e0000
+}
+
+.note-info {
+    background: #2196f3;
+    border-color: #2196f3;
+    border-left: 5px solid #025698;
+    color: #fff
+}
+
+.note-success {
+    background: #8aef9a;
+    border-color: #013a0b;
+    border-left: 5px solid #27b33e;
+    color: #124e1c
+}
+
+.note-warning {
+    background: #ffcb8a;
+    border-color: #ffcb8a;
+    border-left: 5px solid #f58700;
+    color: #000
+}
+
+.note-primary {
+    background: #515be0;
+    border-color: #515be0;
+    border-left: 5px solid #040f9c;
+    color: #fff
+}
+
+.fsgred {
+    color: red
+}
+
+.success-icon-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    background: #129e16;
+    color: #fff;
+    border-bottom-right-radius: 10px
+}
+
+.error-icon-box .icon,
+.success-icon-box .icon {
+    width: 25px;
+    height: 25px
+}
+
+.box-is-success {
+    border: 2px solid #129e16!important
+}
+
+.error-icon-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    background: #b8030c;
+    color: #fff;
+    border-bottom-right-radius: 10px
+}
+
+.box-is-error {
+    border: 2px solid #b8030c!important
+}
+
+.remove-icon {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    cursor: pointer;
+    color: #206bc4
+}
+
+.remove-icon:hover {
+    color: #3a81d6
+}
+
+.imgbob__setup {
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 9px
+}
+
+.pagination .page-item {
+    margin-right: .5em;
+    margin-left: .5em
+}
+
+.gallery-image {
+    height: 230px
+}
+
+.text-right {
+    text-align: right!important
+}
+
+.navbar-vertical.navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
+    padding: .7rem 1.5rem
+}
+
+table.table-bordered.dataTable {
+    border-right-width: 0;
+    border-left: 1px solid #ebedf1
+}
+
+.error_pages {
+    margin-top: 140px
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem
+}
+
+.badge {
+    border-radius: 50px;
+    margin-left: auto;
+    line-height: 1;
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 11px;
+    border: 0
+}
+
+.fm40 {
+    height: 40px
+}
+
+#basic-datatables_info,
+#basic-datatables_paginate {
+    margin-top: 1em
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    border-radius: 0;
+    background: var(--playbob-primary-color) !important;
+    border-color: transparent
+}
+
+.image {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 15px;
+    padding: 12px
+}
+
+.image img {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.inte-box {
+    background: #f4f9ff;
+    padding: 12px;
+    margin-bottom: 30px
+}

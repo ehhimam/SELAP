@@ -38,7 +38,7 @@
                                                 <?= $aa['kategori'];?>   
                                             </td>
                                             <td>
-                                                <a href="lihat_lapangan/<?= $aa['id_futsal'];?>" class="btn btn-primary"><i class="fa fa-eye"></i></a>
+                                                <a href="../sewa/detail_futsal/<?= $aa['id_futsal'];?>" class="btn btn-primary"><i class="fa fa-eye"></i></a>
                                                 <a href="edit_lapangan/<?= $aa['id_futsal'];?>" class="btn btn-warning"><i class="fa fa-pen"></i></a>
                                                 <a href="delete/<?= $aa['id_futsal'];?>" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>

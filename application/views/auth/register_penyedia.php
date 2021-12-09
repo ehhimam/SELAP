@@ -63,10 +63,10 @@
                         <?= form_close(); ?>
                         <hr>
                         <div class="text-center">
-                            <a class="small" href="forgot-password.html">Lupa Password?</a>
+                            
                         </div>
                         <div class="text-center">
-                            <a class="small" href="<?= base_url(); ?>">Sudah memiliki akun? Login Sekarang!</a>
+                            <a class="small" href="<?= base_url('index.php/auth/login_penyedia'); ?>">Sudah memiliki akun? Login Sekarang!</a>
                         </div>
                     </div>
                 </div>

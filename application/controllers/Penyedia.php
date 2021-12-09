@@ -13,9 +13,16 @@ class Penyedia extends CI_Controller {
 	
 	public function index()
 	{
+		$this->load->model('M_penyedia');
+
 		$data['judul'] 		= 'Dashboard Penyedia';
 		$data['penyedia'] 	= $this->db->get_where('penyedia', 
 			['nohp_penyedia' => $this->session->userdata('nohp_penyedia')])->row_array();
+
+		$id = $this->session->userdata('id_penyedia');
+
+		$data['jumlah_lapangan']	= $this->M_penyedia->jumlah_lapangan($id);
+		$data['jumlah_sewa']		= $this->M_penyedia->jumlah_sewa($id);
 
 
 		$this->load->view('template/header', $data);
