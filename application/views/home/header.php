@@ -39,10 +39,11 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
       <span class="navbar-toggler-icon"></span>
       </button>
-            <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal  me-md-3 ">
-         <a href="<?= base_url(); ?>">
-         <img src="<?= base_url(); ?>images/main/logo.svg" width="110" height="32" alt="Testing" class="navbar-brand-image">
-         </a>       </h1>
+         <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal  me-md-3 ">
+            <a href="<?= base_url(); ?>">
+               <img src="<?= base_url(); ?>/images/main/logo.svg" width="110" height="32" alt="SELAP" class="navbar-brand-image">
+            </a>       
+         </h1>
       <div class="navbar-nav flex-row order-md-last">
         <li class="nav-item pe-0 pe-md-2 d-mobile-none">
             <a href="<?= base_url('index.php/auth'); ?>" class="btn">
@@ -51,13 +52,13 @@
                   <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path>
                   <path d="M20 12h-13l3 -3m0 6l-3 -3"></path>
                </svg>
-               Log in
+               Masuk
             </a>
          </li>
                   <li class="nav-item d-mobile-none">
-            <a href="<?= base_url('index.php/auth/register'); ?>" class="btn btn-danger">
+            <a href="<?= base_url('index.php/auth/register'); ?>" class="btn btn-success">
                
-               Create account
+               Buat Akun
             </a>
          </li>
            <li class="nav-item pe-1 d-md-none mobile-icon">
@@ -88,7 +89,7 @@
                   </a>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#navbar-third" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#about">
                      <span class="nav-link-icon d-md-none d-lg-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

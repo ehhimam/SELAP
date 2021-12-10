@@ -67,7 +67,7 @@ class Auth extends CI_Controller {
 				} else {
 					$this->session->set_flashdata('pesan', '<div class="alert alert-danger" role="alert">Password Salah, Silahkan coba lagi!!</div>');
 
-                    redirect('');
+                    redirect('index.php/user');
 				}
 			} else  {
 
@@ -142,7 +142,7 @@ class Auth extends CI_Controller {
 
 			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert">Selamat! Akun berhasil dibuat! Silahkan login!</div>');
 
-          	redirect('');
+          	redirect('index.php/auth');
 		}	
 	}
 

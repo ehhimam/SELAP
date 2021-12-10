@@ -17,7 +17,7 @@
 
                                 <?= $this->session->flashdata('pesan'); ?>
 
-                                <form class="user" method="POST" action="<?= base_url(); ?>">
+                                <form class="user" method="POST" action="<?= base_url('index.php/auth'); ?>">
                                     <div class="form-group">
                                         <input type="number" class="form-control form-control-user" name="nohp" id="nohp" placeholder="Masukkan nomor HP untuk login..." value="<?= set_value('nohp');?>">
                                          <?= form_error('nohp', ' <small class="text-danger pl-3">', '</small>'); ?>

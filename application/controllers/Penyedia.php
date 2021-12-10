@@ -369,5 +369,19 @@ class Penyedia extends CI_Controller {
 
 	}
 
+	// bantuan penyedia ke admin
+	public function bantuan()
+	{
+		$data['judul'] = 'Halaman Bantuan!!';
+		$data['penyedia'] 	= $this->db->get_where('penyedia', 
+			['nohp_penyedia' => $this->session->userdata('nohp_penyedia')])->row_array();
+
+		$this->load->view('template/header', $data);
+		$this->load->view('penyedia/sidebar', $data);
+		$this->load->view('penyedia/topbar', $data);
+		$this->load->view('penyedia/bantuan', $data);
+		$this->load->view('template/footer');
+	}
+
 	
 }

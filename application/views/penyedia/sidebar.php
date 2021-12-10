@@ -61,7 +61,7 @@
             </div>
 
              <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="<?= base_url('index.php/penyedia/bantuan'); ?>">
                     <i class="fas fa-fw fa-address-book"></i>
                     <span>Bantuan Admin</span></a>
             </li>

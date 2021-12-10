@@ -15,39 +15,62 @@
                   </div>
                   <div class="col-lg-6">
                      <div class="playbob-right-video">
-                        <img src="http://localhost/playbob/images/sections/hero.svg" alt="Video upload">
+                        <img src="<?= base_url('assets/img/sp.png'); ?>" alt="Video upload">
                      </div>
                   </div>
                </div>
 
-               <div class="playbob-steps">
+               <div class="playbob-steps" id="about">
                   <div class="row">
                      <div class="col-lg-8 m-auto text-center">
-                        <h1 class="section-title">Get started in 3 simple steps.</h1>
-                        <p class="title-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
+                        <h1 class="section-title">6 Langkah mudah booking Lapangan!</h1>
+                        <p class="title-description">Langkah mudah dalam pemesanan lapangan di selap!</p>
                      </div>
                   </div>
                   <div class="row mt-5">
-                     <div class="col-lg-6">
+                     <div class="col-lg-4">
                         <div class="home-box">
-                           <i class="fa fa-cloud-upload"></i>
-                           <h1>Upload videos</h1>
+                           <i class="fa fa-sign-in"></i>
+                           <h1>Masuk</h1>
                         </div>
                      </div>
-                     <div class="col-lg-6">
+                     <div class="col-lg-4">
                         <div class="home-box">
-                           <i class="fa fa-link"></i>
-                           <h1>Get direct link</h1>
+                           <i class="fa fa-mouse-pointer"></i>
+                           <h1>Pilih Lapangan</h1>
                         </div>
                      </div>
-                     <!-- <div class="col-lg-4">
+                     <div class="col-lg-4">
                         <div class="home-box">
-                           <i class="fa fa-share-alt"></i>
-                           <h1>Share anywhere</h1>
+                           <i class="fa fa-handshake-o"></i>
+                           <h1>Sewa Lapangan</h1>
                         </div>
-                     </div> -->
+                     </div>
+                  </div>
+
+                  <div class="row mt-5">
+                     <div class="col-lg-4">
+                        <div class="home-box">
+                           <i class="fa fa-shopping-cart"></i>
+                           <h1>Bayar</h1>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="home-box">
+                           <i class="fa fa-print"></i>
+                           <h1>Cetak Bukti</h1>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="home-box">
+                           <i class="fa fa-check"></i>
+                           <h1>Main</h1>
+                        </div>
+                     </div>
                   </div>
                </div>
+
+               
             </div>
          </div>
       </div>
